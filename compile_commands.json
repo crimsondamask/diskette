@@ -1,0 +1,19 @@
+[
+ {
+  "directory": "/Users/crimsondamask/Desktop/learning/diskette",
+  "arguments": [
+   "clang",
+   "-Wall",
+   "-O0",
+   "-g",
+   "-o",
+   "build/diskette",
+   "src/main.c",
+   "src/sds.c",
+   "-L/usr/local/lib/",
+   "-I/usr/local/include",
+   "-lcyaml"
+  ],
+  "file": "src/sds.c"
+ }
+]

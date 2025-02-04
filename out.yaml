@@ -1,0 +1,66 @@
+project: Write new browser layout engine.
+start:
+  day: 1
+  year: 2018
+  month: June
+people:
+- Stephen
+- Neil
+- Alex
+tasks:
+- name: Read the HTML and CSS specs.
+  flags:
+  - Important
+  estimate:
+    hours: 0
+    days: 3
+    weeks: 3
+    years: 0
+  people:
+  - Stephen
+  - Neil
+- name: Think of name for library.
+  flags: []
+  estimate:
+    hours: 1
+    days: 0
+    weeks: 0
+    years: 0
+- name: Create project repo.
+  flags: []
+  estimate:
+    hours: 1
+    days: 0
+    weeks: 0
+    years: 0
+  depends:
+  - Think of name for library.
+  people:
+  - Alex
+- name: Initial design of library API.
+  flags:
+  - Important
+  - Engineering
+  estimate:
+    hours: 0
+    days: 1
+    weeks: 0
+    years: 0
+  depends:
+  - Read the HTML and CSS specs.
+  - Create project repo.
+- name: Plan the initial implementation
+  flags:
+  - Engineering
+  - Documentation
+  - Management
+  estimate:
+    hours: 0
+    days: 6
+    weeks: 0
+    years: 0
+  depends:
+  - Initial design of library API.
+  people:
+  - Stephen
+  - Alex
